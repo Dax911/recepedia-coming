@@ -17,8 +17,10 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.hero}>
         <h1 className={styles.title}>Mint a Chef Mabel Profile Picture</h1>
 
+        <div>
         <p className={styles.description}>
           The Chef Mabel profile pic is a generative art collection by
           <a href="https://www.twitter.com/pinkcatdaily">@PINKCATDAILY</a> with
@@ -27,9 +29,12 @@ const Home: NextPage = () => {
           redistributed to holders relative to their NFT count. The Recepedia
           NFT marketplace is currently under develop and will be available in
           beta before the end of Q1.
-        </p>
+
+      </p>
+        </div>
         <button className={styles.button}>Mint Coming Soon</button>
 
+        </div>
 
         <p className={styles.description}>
           <h2>Round 1</h2>
