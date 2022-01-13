@@ -16,6 +16,8 @@
 
 .hero {
   background-image: url("../src/images/BG1.png");
+  background-color: rgba(0,0,0,.5); /* Tint color */
+  background-blend-mode: multiply;
   align-items: center;
 }
 
