@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <Navbar />
         <div className={styles.hero}>
-        <h1 className={styles.title} style={{ color: 'white' }}>Mint a Chef Mabel Profile Picture</h1>
+        <h1 className={styles.title} style={{ color: 'white' }}>Main Page</h1>
 
         <div>
         <p className={styles.description} style={{ color: 'white' }}>
