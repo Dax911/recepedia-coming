@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <div>
         <p className={styles.description} style={{ color: 'white' }}>
           The Chef Mabel profile pic is a generative art collection by
-          <a href="https://www.twitter.com/pinkcatdaily">@PINKCATDAILY</a> with
+          <a href="https://www.twitter.com/pinkcatdaily"> @PINKCATDAILY </a> with
           a total of 8,888 NFTs. By minting a Chef Mabel NFT, the owner is
           entitled to The Recepedia co-op. 2% of all Recepedia sales are
           redistributed to holders relative to their NFT count. The Recepedia
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
 
       </p>
         </div>
-        <button className={styles.button}>Mint Coming Soon</button>
+        <button className={styles.button} style={{ alignSelf: 'right' }}>Mint Coming Soon</button>
 
         </div>
 
