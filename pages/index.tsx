@@ -18,10 +18,10 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <div className={styles.hero}>
-        <h1 className={styles.title}>Mint a Chef Mabel Profile Picture</h1>
+        <h1 className={styles.title} style={{ color: 'white' }}>Mint a Chef Mabel Profile Picture</h1>
 
         <div>
-        <p className={styles.description}>
+        <p className={styles.description} style={{ color: 'white' }}>
           The Chef Mabel profile pic is a generative art collection by
           <a href="https://www.twitter.com/pinkcatdaily">@PINKCATDAILY</a> with
           a total of 8,888 NFTs. By minting a Chef Mabel NFT, the owner is
