@@ -26,21 +26,15 @@ const Home: NextPage = () => {
 
           <div>
             <p className={styles.description} style={{ color: "white" }}>
-              The Chef Mabel profile pic is a generative art collection by
-              <a href="https://www.twitter.com/pinkcatdaily">
-                {" "}
-                @PINKCATDAILY{" "}
-              </a>{" "}
-              with a total of 8,888 NFTs. By minting a Chef Mabel NFT, the owner
-              is entitled to The Recepedia co-op. 2% of all Recepedia sales are
-              redistributed to holders relative to their NFT count. The
-              Recepedia NFT marketplace is currently under develop and will be
-              available in beta before the end of Q1.
+              Recipedia Marketplace will be a fully featured metaverse
+              marketplace that connects at home chefs with great recipes in an
+              ad-free browsing experience. As the project matures, add to cart
+              functionality, cooking tutorials and other brand building tools
+              will be integrated. The marketplace will become a self-sustaining
+              ecosystem where chefs can move up the search results based on
+              performance & assets held.
             </p>
           </div>
-          <button className={styles.button} style={{ alignSelf: "right" }}>
-            Mint Coming Soon
-          </button>
         </div>
 
         <p className={styles.description}>
@@ -54,10 +48,7 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a
-            href="https://twitter.com/cryptonia_d69"
-            className={styles.card}
-          >
+          <a href="https://twitter.com/cryptonia_d69" className={styles.card}>
             <h2>Chef Mabel &rarr;</h2>
             <p>
               Chef Drue is a battle-hardened, Bay Area, tech queen with a
@@ -67,10 +58,7 @@ const Home: NextPage = () => {
             </p>
           </a>
 
-          <a
-            href="https://www.twitter.com/haydenaylor"
-            className={styles.card}
-          >
+          <a href="https://www.twitter.com/haydenaylor" className={styles.card}>
             <h2>Chef Dax &rarr;</h2>
             <p>
               Dax, our resident Engineer and co-founder, was also forged in the
