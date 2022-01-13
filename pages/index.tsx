@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import BG from "../src/assets/images/BG1.jpeg"
-import Navbar  from "../src/components/header";
+import BG from "../src/assets/images/BG1.jpeg";
+import Navbar from "../src/components/header";
 
 const Home: NextPage = () => {
   return (
@@ -20,68 +20,78 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <Navbar />
         <div className={styles.hero}>
-        <h1 className={styles.title} style={{ color: 'white' }}>Main Page</h1>
+          <h1 className={styles.title} style={{ color: "white" }}>
+            Recepedia
+          </h1>
 
-        <div>
-        <p className={styles.description} style={{ color: 'white' }}>
-          The Chef Mabel profile pic is a generative art collection by
-          <a href="https://www.twitter.com/pinkcatdaily"> @PINKCATDAILY </a> with
-          a total of 8,888 NFTs. By minting a Chef Mabel NFT, the owner is
-          entitled to The Recepedia co-op. 2% of all Recepedia sales are
-          redistributed to holders relative to their NFT count. The Recepedia
-          NFT marketplace is currently under develop and will be available in
-          beta before the end of Q1.
-
-      </p>
-        </div>
-        <button className={styles.button} style={{ alignSelf: 'right' }}>Mint Coming Soon</button>
-
+          <div>
+            <p className={styles.description} style={{ color: "white" }}>
+              The Chef Mabel profile pic is a generative art collection by
+              <a href="https://www.twitter.com/pinkcatdaily">
+                {" "}
+                @PINKCATDAILY{" "}
+              </a>{" "}
+              with a total of 8,888 NFTs. By minting a Chef Mabel NFT, the owner
+              is entitled to The Recepedia co-op. 2% of all Recepedia sales are
+              redistributed to holders relative to their NFT count. The
+              Recepedia NFT marketplace is currently under develop and will be
+              available in beta before the end of Q1.
+            </p>
+          </div>
+          <button className={styles.button} style={{ alignSelf: "right" }}>
+            Mint Coming Soon
+          </button>
         </div>
 
         <p className={styles.description}>
-          <h2>Round 1</h2>
-          <h3>Mint 2,222</h3>
+          <h2>Meet the Team</h2>
           <p>
-            Owners wiill gain beta access and direct input into MVP
-            fucntionality of the Recepedia marketplace/services, kitchen banner
-            NFT airdrop, and ingredients NFT airdrop.
+            We are a doxxed team of developers, cooking enthusiasts, pet lovers
+            and web3 pros who are committed to making this the most innovative
+            and streamlined user experience for creators and end users in the
+            online cooking industry.
           </p>
         </p>
 
         <div className={styles.grid}>
           <a
-            href="https://medium.com/geekculture/a-beginners-guide-to-understanding-pfp-nfts-8714e9d30d0b"
+            href="https://twitter.com/cryptonia_d69"
             className={styles.card}
           >
-            <h2>Importance of PFPs &rarr;</h2>
+            <h2>Chef Mabel &rarr;</h2>
             <p>
-              The pseudo-anonymity provided by our pfp’s will allow them to
-              share great food-related content, generate revenue from sharing
-              recipes, and participate in metaverse cooking competitions without
-              having to plaster their image all over the web.
+              Chef Drue is a battle-hardened, Bay Area, tech queen with a
+              passion for cooking and bringing lean startup principles into the
+              Web3 eco-system. Emily is a builder first, with 8 years experience
+              bringing new products to life. Including some, eh.. Spicy 🌶 NFTs.
             </p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://www.twitter.com/haydenaylor"
             className={styles.card}
           >
-            <h2>Marketplace Integration &rarr;</h2>
+            <h2>Chef Dax &rarr;</h2>
             <p>
-              The primary use case for Chef Mabel NFT’s is for creating a brand
-              identity in the Recepedia Marketplace. Here, creators will mint,
-              sell & generate income from the recipes and cooking related
-              content that they share.
+              Dax, our resident Engineer and co-founder, was also forged in the
+              fires of Silicon Valley. Three core values drive him: Delivering
+              value, writing high quality, well documented code, and finding
+              unique use cases for web3 technology. He’s an experienced full
+              stack developer who dabbles in open source and indie game
+              development.
             </p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.twitter.com/pinkcatdaily"
             className={styles.card}
           >
-            <h2>White Paper &rarr;</h2>
+            <h2>Pastry Chef Saba&rarr;</h2>
             <p>
-              Interested in learning more about Recepedia and the team? Check out our white paper and technical solutions.
+              Saba is an artist that has been featured in the LA Times and comes
+              with a huge instagram following. Playfulness is an artform, and it
+              is vibrantly expressed in her unique and whimsical caricatures
+              that make up the Mabel NFT collection.
             </p>
           </a>
         </div>
