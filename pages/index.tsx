@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import BG from "../src/assets/images/BG1.jpeg"
+import Navbar  from "../src/components/header";
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <Navbar />
         <div className={styles.hero}>
         <h1 className={styles.title} style={{ color: 'white' }}>Mint a Chef Mabel Profile Picture</h1>
 
